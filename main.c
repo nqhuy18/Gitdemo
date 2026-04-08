@@ -7,9 +7,14 @@ void add(int a, int b) {
     printf("The sum of %d and %d is %d\n", a, b, a + b);
 }
 
+void change_by_dev2() {
+    printf("Function added by dev2 to change color to red!\n");
+}
+
 int main() {
     printf("Hello, World!\n");
     change_color();
     add(5, 3);
+    change_by_dev2();
     return 0;
 }
