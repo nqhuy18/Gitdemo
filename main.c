@@ -11,6 +11,9 @@ void change_by_dev2() {
     printf("Function added by dev2 to change color to red!\n");
 }
 
+void change_by_dev3() {
+    printf("Function added by dev3 to change color to green!\n");
+}
 int main() {
     printf("Hello, World!\n");
     change_color();
